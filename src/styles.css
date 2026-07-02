@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: #f2f3f3;
+}
+
+.content-header {
+  border-bottom: 1px solid #eaeded;
+  padding-bottom: 16px;
+}
+
+.content-header h1 {
+  color: #16191f;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 4px 0 8px;
+}
+
+.content-header p {
+  color: #5f6b7a;
+  margin: 0;
+  max-width: 780px;
+}
+
+.content-header .eyebrow {
+  color: #0073bb;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .content-header h1 {
+    font-size: 26px;
+  }
+}
